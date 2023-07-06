@@ -9,13 +9,13 @@ function clockstart(){
     let secs = time.getSeconds();
     
 
-if((hrs>8&&hrs<12)&&(ampm="AM")){
+if(hrs>8&&hrs<12){
 changeTime[0].innerHTML="grab some healthy breakfast"
 }
- else if((hrs>=12&&hrs<16)&&(ampm="PM")){
+ else if(hrs>=12&&hrs<16){
 changeTime[0].innerHTML="let's have some lunch  !!!!"
 }
-else if((hrs>=16&&hrs<20)&&(ampm="PM")){
+else if (hrs>=16&&hrs<20){
 changeTime[0].innerHTML="let's have dinner !!!"
 }
 else{changeTime[0].innerHTML="Close your eyes and goto sleep"}
